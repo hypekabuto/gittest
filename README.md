@@ -1,24 +1,6 @@
-# vue_test
+#笔记
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##  ref属性
+    1.被用来给元素或者子组件注册引用消息（id的替代者）
+    2.应用在html标签上获取的是真实dom元素，应用在组件标签上是组件实例对象
+    3.获取方法：this.$refs.xxx
